@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, Link, NavLink } from 'react-router-dom';
+import { Routes, Route, NavLink } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import TimeAttackPage from './components/TimeAttackPage';
 import ForzaPage from './components/ForzaPage';
@@ -7,7 +7,7 @@ import DriftPage from './components/DriftPage';
   
 
   const setActive = ({isActive}) => isActive ? 'menu__item-active' : 'menu__item';
-  
+
   export default function App() {
 
     return (
